@@ -78,7 +78,7 @@ A super simple way to publish personal pages / blogs using Notion as CMS and Clo
     
     It's basically just that our domain , quite justifiably, doesn't want to run a <ins> random javascript it gets from Notion! </ins>
     
-    > And security wise, that's a great thing! You wouldn't want your browser to run arbitary javascript anyway!
+    > And security wise, that's a great thing! You wouldn't want your browser to run arbitrary javascript anyway!
     
   - Yeah, but, **we know what we are doing!, right?** Let's edit the *csp*:
     
@@ -92,7 +92,7 @@ A super simple way to publish personal pages / blogs using Notion as CMS and Clo
   
     Well, not exactly! But, we are **close!**
     
-    But, first, the hurdle we face : we are now greeted with a `Mismatch between origin and baseUrl (dev).` pop up!
+    But, first, the hurdle we face : we are now greeted with a `Mismatch between origin and baseUrl (dev).` pop-up!
     
     And it's actually a little but **dense** function in the `app-1ae08b9f66e81e1cf0c9.js` we saw before:
     
